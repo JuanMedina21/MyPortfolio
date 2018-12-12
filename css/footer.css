@@ -1,0 +1,59 @@
+.documentation footer {
+    padding-left: 0;
+}
+
+.fixed-sn .double-nav, .fixed-sn footer, .fixed-sn main {
+    padding-left: 15rem;
+}
+
+footer.page-footer {
+    bottom: 0;
+    color: #fff;
+}
+
+.font-small {
+    font-size: .9rem;
+}
+
+.special-color-dark {
+    background-color: #263238!important;
+}
+
+.pt-4, .py-4 {
+    padding-top: 1.5rem!important;
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+article, aside, footer, header, hgroup, main, nav, section {
+    display: block;
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.list-inline-item {
+    display: inline-block;
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+
+li {
+    display: list-item;
+    text-align: -webkit-match-parent;
+}
+
+.font-small{
+    font-size: 1.2rem;
+}
+
+

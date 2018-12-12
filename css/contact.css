@@ -1,0 +1,20 @@
+.contact {
+    height: 730px;
+}
+
+#contactMe{
+    margin-bottom: 50px;
+    color: rgb(51, 58, 75);
+}
+
+#btN {
+    background-color: #1cbbb4;
+}
+
+#forms {
+    width: 500px;
+}
+
+.map {
+    margin-left: 900px;
+}

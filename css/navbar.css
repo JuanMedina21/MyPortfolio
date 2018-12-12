@@ -1,20 +1,26 @@
 #nav-content {
-    margin-left: 40%;
+    margin-left: 20%;
     font-size: 25px;
-    position: fixed;
     padding: 90px;
+    
 }
 
 .navbar-brand{
-    margin-left: 15%;
-    border: solid 1px black;
-    border-radius: 5px;
-    padding: 8px;
-    position: fixed;
+    margin-left: 10%;
+    border: solid 1px rgb(255, 254, 254);
+    border-radius: 6px;
+    padding: 10px;
     opacity: .7;
-    background-color: rgb(247, 241, 241);
+   
 }
 
 .navbar{
     height: 65px;
+    background-color: #1cbbb4;
+}
+
+#navlink {
+    color:rgb(255, 255, 255);
+    opacity: .8;
+    margin-right: 25px;
 }

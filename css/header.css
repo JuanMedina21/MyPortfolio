@@ -3,18 +3,50 @@
     background-size: cover;
     color: white;
     text-align: center;
-    height: 600px;
+    height: 656px;
+    margin-bottom: 0px;
+}
+
+#jumbotronOne ::before {
     
-   
 }
 
 .display-4 {
     font-size: 55px;
-    font-weight: 450;
+    font-weight: 600;
     margin-top: 160px;
+    color: rgb(61, 60, 60);
 
 }
 
 .lead {
+    font-size: 40px;
+    font-weight: 600;
+    color: rgb(51, 58, 75);
+}
+
+.typewriter p {
     
+    overflow: hidden; /* Ensures the content is not revealed until the animation */
+    border-right: .15em solid rgb(90, 88, 88); /* The typwriter cursor */
+    white-space: nowrap; /* Keeps the content on a single line */
+    margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+    letter-spacing: .15em; /* Adjust as needed */
+    animation: 
+      typing 3.5s steps(30, end),
+      blinking-cursor .5s step-end;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blinking-cursor {
+    from{border-right-color: rgb(66, 62, 62);} to { border-right-color: rgb(66, 62, 62) }
+    25%
+  }
+
 }
