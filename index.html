@@ -21,52 +21,70 @@
       <div class="collapse navbar-collapse" id="navbarNav">
         <ul class="navbar-nav" id="nav-content">
           <li class="nav-item active">
-            <a class="nav-link" id="navlink" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-link" id="navlink" href="/">Home <span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="navlink" href="#">About Me</a>
+            <a class="nav-link" id="navlink" href="#aboutme">About</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="navlink" href="#">Projects</a>
+            <a class="nav-link" id="navlink" href="#myprojects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="navlink" href="#">Contact Me</a>
+            <a class="nav-link" id="navlink" href="#contactme">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
 
     <!--HEADER-->
-    <div class="jumbotron jumbotron-fluid" id="jumbotronOne">
-      <div class="container typewriter">
-        <h1 class="display-4">Hi, I'm Juan Medina</h1>
-        <p class="lead">Fullstack JavaScript Developer</p>
-      </div>
-    </div>
-
-    <!--ABOUT ME-->
-
-
-    <div class="jumbotron jumbotron-fluid about">
-      <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
-      </div>
-    </div>
-
-    <!--PROJECTS-->
-    <div class="jumbotron jumbotron-fluid projects">
-        <div class="container">
-          <h1 class="display-4">Fluid jumbotron</h1>
-          <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+      <div class="jumbotron jumbotron-fluid" id="jumbotronOne">
+        <div class="container typewriter">
+          <h1 class="display-4">Hi, I'm Juan Medina</h1>
+          <p class="lead">Fullstack JavaScript Developer</p>
         </div>
       </div>
 
+    <!--ABOUT ME-->
+    
+      <div class="jumbotron jumbotron-fluid about" id="aboutme">
+        <div class="container">
+          <img src="assets/img/MedinaJuan.jpeg" id="mainpic" class="image">
+          <h1 class="display-4" id="abt">About Me</h1>
+          <p class="lead" id="textAbt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead" id="textAbt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead" id="textAbt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+          <p class="lead" id="textAbt">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        </div>
+      </div>
+    
+
+    <!--PROJECTS-->
+    <div class="jumbotron jumbotron-fluid projects" id="myprojects">
+        <div class="container">
+          <h1 class="display-4" id="abt">Recent Projects</h1>
+        </div>
+        <div class="container" id="nike">
+            <img src="assets/img/action-athlete-cleats-774321.jpg" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text"><a href="#">Nike Fictional Site</a></div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">John Doe</div>
+            </div>
+        </div>
+        <div class="container">
+            <img src="img_avatar.png" alt="Avatar" class="image" style="width:100%">
+            <div class="middle">
+              <div class="text">John Doe</div>
+            </div>
+        </div>
+    </div>
+
     <!--FORM-->
-    <section id="about"></section>
-    <section id="portfolio"></section>
-    <section id="contact">
-      <div class="container contact">
+      <div class="container contact" id="contactme">
         <h2 class="text-center text-uppercase" id="contactMe">Contact Me</h2>
         <div class="row">
           <form action="https://formspree.io/jmedinadev@gmail.com" method="POST">
@@ -124,12 +142,48 @@
           </form>
         </div>
       </div>
-    </section>
-
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33918.603265227255!2d-85.72025690882793!3d38.308627199082444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973d6a5413f23%3A0x682c8f6cd0da1960!2s2502+Shaun+Cir%2C+Jeffersonville%2C+IN+47130!5e0!3m2!1sen!2sus!4v1544643548243" width="450" height="500" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
 
 
+      <div class="containerPic">
+        <img class="pic"src="assets/img/download.png">
+      </div>
+
+    
+    <div class="info">
+      <h3>Juan C. Medina</h3>
+      <h4>jmedinadev@gmail.com</h4>
+      <h4>502-356-6819</h4>
+      <a href="assets/Juan Medina's Resume - UPS.pdf" id="resume" download>Download My Resume</a>
+    </div>
+
+    <div class="social">
+        <ul class="list-unstyled list-inline text-center">
+            <li class="list-inline-item">
+              <a href="https://github.com/JuanMedina21" target=_blank class="btn-floating btn-gh mx-1 waves-effect waves-light" id="gh">
+                <i class="fab fa-github"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.linkedin.com/in/juan-medina-64238488/" target=_blank class="btn-floating btn-li mx-1 waves-effect waves-light" >
+                <i class="fab fa-linkedin"> </i>
+              </a>
+            </li>
+            <li class="list-inline-item">
+              <a href="https://www.facebook.com/juancarlos.medina.7524879" target=_blank class="btn-floating btn-fb mx-1 waves-effect waves-light" id="fbk">
+                <i class="fab fa-facebook"> </i>
+              </a>
+            </li>
+          </ul>
+    </div>
+
+<!---map-->
+<div class="jumbotron jumbotron-fluid projects">
+  <div class="container">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d33918.603265227255!2d-85.72025690882793!3d38.308627199082444!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x886973d6a5413f23%3A0x682c8f6cd0da1960!2s2502+Shaun+Cir%2C+Jeffersonville%2C+IN+47130!5e0!3m2!1sen!2sus!4v1544643548243" frameborder="0" style="border:0" allowfullscreen class="map"></iframe>
+  </div>
+</div>
    
+
 <!-- Footer -->
 <footer class="page-footer font-small special-color-dark pt-4">
 
@@ -139,17 +193,17 @@
       <!-- Social buttons -->
       <ul class="list-unstyled list-inline text-center">
         <li class="list-inline-item">
-          <a class="btn-floating btn-gh mx-1 waves-effect waves-light">
+          <a href="https://github.com/JuanMedina21" target=_blank class="btn-floating btn-gh mx-1 waves-effect waves-light" id="socialColor">
             <i class="fab fa-github"> </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn-floating btn-li mx-1 waves-effect waves-light">
+          <a href="https://www.linkedin.com/in/juan-medina-64238488/" target=_blank class="btn-floating btn-li mx-1 waves-effect waves-light" id="socialColor">
             <i class="fab fa-linkedin"> </i>
           </a>
         </li>
         <li class="list-inline-item">
-          <a class="btn-floating btn-fb mx-1 waves-effect waves-light">
+          <a href="https://www.facebook.com/juancarlos.medina.7524879" target=_blank class="btn-floating btn-fb mx-1 waves-effect waves-light" id="socialColor">
             <i class="fab fa-facebook"> </i>
           </a>
         </li>
