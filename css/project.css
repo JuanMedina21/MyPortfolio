@@ -4,9 +4,13 @@
   background-color: white;
 }
 
-#nike {
+.thumbnails {
   width: 400px;
   height: 400px;
+  display: inline-block;
+  margin-left: 57px;
+  margin-bottom: -250px;
+  border-radius: 15px;
 }
 
 .container:hover .middle {
@@ -14,7 +18,7 @@
 }
 
 .text {
-  background-color: #4CAF50;
+  background-color: #1cbbb4;
   color: white;
   font-size: 16px;
   padding: 16px 32px;
@@ -33,4 +37,13 @@
 
 .container {
   position: relative;
+}
+
+#abt{
+  margin-bottom: 120px;
+}
+
+.projectBtn {
+  text-decoration: none;
+  color: white;
 }
