@@ -5,11 +5,12 @@
 
 #contactMe{
     margin-bottom: 50px;
-    color: rgb(51, 58, 75);
+    color: rgb(99, 96, 96);
 }
 
 #btN {
     background-color: #1cbbb4;
+    color: rgb(99, 96, 96);
 }
 
 #forms {
@@ -22,6 +23,7 @@
     opacity: .9;
     margin-bottom: -500px;
 }
+
 
 .pic{
     width: 150px;
@@ -36,7 +38,7 @@
 
 #resume{
     border: solid .5px #28c0b8;
-    color:  rgb(51, 58, 75);
+    color: rgb(99, 96, 96);
     padding: 8px;
     border-radius: 20px;
     background-color: #1cbbb4;
@@ -44,12 +46,12 @@
     
 }
 
-#info{
+.info{
     float: right;
     text-align: center;
-    color: rgb(51, 58, 75);
+    color: rgb(99, 96, 96);
     margin-right: 340px;
-    z-index:9999999;
+    
     
 }
 
@@ -68,6 +70,10 @@
 
 #fbk{
     color: #4267b2;
+}
+
+.move{
+    margin-right: 340px;
 }
 
 
