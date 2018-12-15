@@ -38,8 +38,7 @@
   }
 
   #aboutme{
-    background-image: url(/assets/img/background-background-image-clear-sky-1054222.jpg);
-    opacity: 100;
+    background-image: url(./../assets/img/background-background-image-clear-sky-1054222.jpg);
     background-size: cover;
   }
   
