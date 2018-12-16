@@ -30,11 +30,13 @@
             <a class="nav-link" id="navlink" href="#myprojects">Projects</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" id="navlink" href="#contactme">Contact</a>
+            <a class="nav-link" id="navlink" href="#contactMe">Contact</a>
           </li>
         </ul>
       </div>
     </nav>
+
+    <button onclick="topFunction()" id="myBtn" title="Go to top">Back To Top</button>
 
     <!--HEADER-->
       <div class="jumbotron jumbotron-fluid" id="jumbotronOne">
@@ -63,18 +65,21 @@
         <ul>
           <li class="container thumbnails" >
               <img src="assets/img/action-athlete-cleats-774321.jpg" alt="Nike" class="image" style="width:100%">
+              <p class="paraDscrpt">This is a fictional Nike site that was developed using HTML, CSS, and JavaScript.</p>
               <div class="middle">
                 <div class="text"><a href="https://juanmedina21.github.io/NikeFictional/" target=_blank class="projectBtn">Nike Fictional Site</a></div>
               </div>
           </li>
           <li class="container thumbnails">
               <img src="assets/img/code-coder-codes-34600.jpg" alt="JS" class="image" style="width:100%">
+              <p class="paraDscrpt">This is a fictional Nike site that was developed using HTML, CSS, and JavaScript.</p>
               <div class="middle">
                 <div class="text"><a href="https://juanmedina21.github.io/TutorialWebsite/" target=_blank class="projectBtn">Learn JavaScript</a></div>
               </div>
             </li>
           <li class="container thumbnails">
               <img src="assets/img/blurred-background-coffee-cup-computer-908284.jpg" alt="API" class="image" style="width:100%">
+              <p class="paraDscrpt">This is a fictional Nike site that was developed using HTML, CSS, and JavaScript.</p>
               <div class="middle">
                 <div class="text"><a href="#" target=_blank class="projectBtn">API Project</a></div>
               </div>
@@ -84,16 +89,11 @@
 
 
 
-
-
-
-
-
-    <div class="two-columns">
-        <h2 class="text-center text-uppercase" id="contactMe">Contact Me</h2>
+    <div class="two-columns" id="contactMe">
+        <h2 class="text-center text-uppercase" >Contact Me</h2>
       <div class="column-left">
         <!--FORM-->
-        <div class="" id="contactme">
+        <div>
           <div>
             <form action="https://formspree.io/jmedinadev@gmail.com" method="POST">
               <div class="control-group">
@@ -130,18 +130,17 @@
           </div>
         </div>
       </div>
-    
-    
+
       <div class="column-right">
         <div class="containerPic">
           <img class="pic" src="assets/img/download.png">
         </div>
         <div>
           <div class="info">
-            <h3>Juan C. Medina</h3>
-            <h4>jmedinadev@gmail.com</h4>
-            <h4>502-356-6819</h4>
-            <a href="assets/Juan Medina's Resume - UPS.pdf" id="resume" download>Download My Resume</a>
+            <h3 class="infoSec">Juan C. Medina</h3>
+            <h4 class="infoSec">jmedinadev@gmail.com</h4>
+            <h4 class="infoSec">502-356-6819</h4>
+            <a href="assets/Juan Medina's Resume - UPS.pdf" id="resume" class="infoSec" download>Download My Resume</a>
           </div>
     
           <div class="social">
@@ -171,53 +170,6 @@
     
     </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
-
-  
-    
-    <!-- <div id="info">
-      <h3>Juan C. Medina</h3>
-      <h4>jmedinadev@gmail.com</h4>
-      <h4>502-356-6819</h4>
-      <a href="assets/Juan Medina's Resume - UPS.pdf" id="resume" download>Download My Resume</a>
-    </div>
-
-    <div class="social">
-        <ul class="list-unstyled list-inline text-center">
-            <li class="list-inline-item">
-              <a href="https://github.com/JuanMedina21" target=_blank class="btn-floating btn-gh mx-1 waves-effect waves-light" id="gh">
-                <i class="fab fa-github"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.linkedin.com/in/juan-medina-64238488/" target=_blank class="btn-floating btn-li mx-1 waves-effect waves-light" >
-                <i class="fab fa-linkedin"> </i>
-              </a>
-            </li>
-            <li class="list-inline-item">
-              <a href="https://www.facebook.com/juancarlos.medina.7524879" target=_blank class="btn-floating btn-fb mx-1 waves-effect waves-light" id="fbk">
-                <i class="fab fa-facebook"> </i>
-              </a>
-            </li>
-          </ul>
-    </div> -->
-
-
     <span class="clearfix"></span>
 <!---map-->
 <div class="jumbotron jumbotron-fluid zindex projects">
@@ -228,7 +180,7 @@
    
 
 <!-- Footer -->
-<footer class="page-footer font-small special-color-dark pt-4">
+<footer class="page-footer font-small special-color-dark pt-4" id="cont">
 
     <!-- Footer Elements -->
     <div class="container">
@@ -274,5 +226,6 @@
       <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
       <script src="./js/main.js"></script>
   </body>
+  
 </html>
 

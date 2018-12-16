@@ -10,7 +10,7 @@
   display: inline-block;
   margin-left: 57px;
   margin-bottom: -250px;
-  border-radius: 15px;
+  border-radius: 30px;
 }
 
 .container:hover .middle {
@@ -46,4 +46,13 @@
 .projectBtn {
   text-decoration: none;
   color: white;
+}
+
+.paraDscrpt {
+  padding-top: 15px;
+  width: 100%;
+  max-width: 400px;
+  color:rgb(99, 96, 96);
+  text-align: center;
+  font-size: 18px;
 }

@@ -7,12 +7,9 @@
 
 #btN {
     background-color: #1cbbb4;
-    color: rgb(99, 96, 96);
+    color: white;
 }
 
-#forms {
-   
-}
 
 .map {
     width: 100%;
@@ -26,14 +23,13 @@
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    
     filter: grayscale(10%) contrast(150%) brightness(95%);
     
 }
 
 #resume{
     border: solid .5px #28c0b8;
-    color: rgb(99, 96, 96);
+    color: white;
     padding: 8px;
     border-radius: 20px;
     background-color: #1cbbb4;
@@ -45,16 +41,12 @@
     
     text-align: center;
     color: rgb(99, 96, 96);
-  
-    
     
 }
 
 .social{
-    
     font-size: 2em;
-  
-    
+    padding-top: 10px; 
 }
 
 #gh {
@@ -65,9 +57,7 @@
     color: #4267b2;
 }
 
-.move{
-   
-}
+
 
 .zindex {
     z-index: -1;
@@ -101,5 +91,9 @@
 .column-right {
     width: 45%;
     text-align: center;
+}
+
+.infoSec {
+    padding-top: 10px;
 }
 
