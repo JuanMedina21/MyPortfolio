@@ -63,3 +63,8 @@
   box-shadow: -1px 4px 17px 0px rgba(119,137,153,1);
   border-radius: 7px;
 }
+
+#creature {
+    height: 250px;
+    opacity: .8;
+}
