@@ -65,6 +65,5 @@
 }
 
 #creature {
-    height: 250px;
-    opacity: .8;
+    max-height: 250px;
 }
