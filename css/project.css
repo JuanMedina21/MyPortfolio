@@ -1,5 +1,5 @@
 .projects {
-  height: 730px;
+  height: 900px;
   margin-bottom: 0px;
   background-color: white;
 }
@@ -10,7 +10,6 @@
   display: inline-block;
   margin-left: 57px;
   margin-bottom: -250px;
-  
 }
 
 .container:hover .middle {
@@ -67,3 +66,8 @@
 #creature {
     max-height: 250px;
 }
+
+.reactCont{
+  margin-top: 3em;
+}
+
